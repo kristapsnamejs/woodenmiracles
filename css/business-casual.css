@@ -45,6 +45,7 @@ hr {
     text-transform: uppercase;
     font-weight: 900;
     letter-spacing: 2px;
+    
 }
 
 .navbar-nav {
@@ -55,6 +56,10 @@ hr {
 
 .img-full {
     min-width: 100%;
+}
+
+.pad {
+    padding-top: 100px;
 }
 
 .brand-before,
