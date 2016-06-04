@@ -5,7 +5,7 @@
 angular.module('woodApp')
     .directive('woodHeader', [function () {           
         return {                                               
-            templateUrl: 'templates/header.html'          
+            templateUrl: 'templates/Header.html'          
         };                                                  
     }]);
     
