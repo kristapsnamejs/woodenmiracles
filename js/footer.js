@@ -3,9 +3,8 @@
 //name and array with dependencies and a function
 //that returns a directive object 
 angular.module('woodApp')
-    .directive('woodHeader', [function () {           
+    .directive('woodFooter', [function () {           
         return {                                               
-            templateUrl: 'templates/header.html'          
+            templateUrl: 'templates/footer.html'          
         };                                                  
     }]);
-    
