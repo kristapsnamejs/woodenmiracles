@@ -26,7 +26,7 @@
     <script>
         $('.carousel').carousel({
         interval: 5000 //changes the speed
-    })
+    });
     </script>
 <script src="js/angular.min.js"></script>
 <script src="js/app.js"></script>
@@ -45,10 +45,10 @@
 
 </head>
 
-<body ng-app="woodApp">
+<body ng-app="woodApp" data-spy="scroll" data-target=".navbar" data-offset="50">
+<wood-adress></wood-adress>
 <wood-header></wood-header>
 <wood-button></wood-button>
-<wood-adress></wood-adress>
 <wood-carousel></wood-carousel>  
 <wood-about></wood-about>
 <wood-stuff></wood-stuff>
